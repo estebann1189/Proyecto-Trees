@@ -1,0 +1,116 @@
+{
+    "texto": "\u00bfEs una comida?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "\u00bfEs dulce?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfEs una fruta?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfEs de color rojo o rosado?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "fresa",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "mango",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfSe hornea?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "pastel",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "helado",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        },
+        "hijo_no": {
+            "texto": "\u00bfLleva carne?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfSe come con tortilla o pan?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "hamburguesa",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "arroz con pollo",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfEs de origen italiano?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "\u00bfLleva queso encima?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "pizza",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "pasta",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                },
+                "hijo_no": {
+                    "texto": "ensalada",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        }
+    },
+    "hijo_no": {
+        "texto": "\u00bfEs una bebida?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfEs caliente?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "cafe",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            },
+            "hijo_no": {
+                "texto": "jugo de naranja",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            }
+        },
+        "hijo_no": {
+            "texto": "plato",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    }
+}

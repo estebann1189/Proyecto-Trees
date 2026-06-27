@@ -1,0 +1,106 @@
+{
+    "texto": "\u00bfEs un medio de transporte?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "\u00bfViaja por el aire?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfLleva muchos pasajeros?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "avion",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            },
+            "hijo_no": {
+                "texto": "helicoptero",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            }
+        },
+        "hijo_no": {
+            "texto": "\u00bfViaja por el agua?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfEs muy grande?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "barco",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "lancha",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfUsa motor?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "\u00bfTiene cuatro ruedas?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "\u00bfEs de uso publico?",
+                        "es_pregunta": true,
+                        "hijo_si": {
+                            "texto": "autobus",
+                            "es_pregunta": false,
+                            "hijo_si": null,
+                            "hijo_no": null
+                        },
+                        "hijo_no": {
+                            "texto": "carro",
+                            "es_pregunta": false,
+                            "hijo_si": null,
+                            "hijo_no": null
+                        }
+                    },
+                    "hijo_no": {
+                        "texto": "motocicleta",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                },
+                "hijo_no": {
+                    "texto": "\u00bfTiene pedales?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "bicicleta",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "patineta",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                }
+            }
+        }
+    },
+    "hijo_no": {
+        "texto": "\u00bfEs un lugar?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "aeropuerto",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        },
+        "hijo_no": {
+            "texto": "maleta",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    }
+}

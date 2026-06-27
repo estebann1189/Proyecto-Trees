@@ -1,0 +1,106 @@
+{
+    "texto": "\u00bfEs un lugar o pais?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "\u00bfEsta en America?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfEsta en America del Norte?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfEs muy grande en tamano?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "Estados Unidos",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "Mexico",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfTiene salida al mar Caribe?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "Costa Rica",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "Brasil",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        },
+        "hijo_no": {
+            "texto": "\u00bfEsta en Europa?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfTiene la Torre Eiffel?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "Francia",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "\u00bfEs famoso por el futbol y la pizza?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "Italia",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "Espana",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfEsta en Asia?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "Japon",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "Egipto",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        }
+    },
+    "hijo_no": {
+        "texto": "\u00bfEs una ciudad famosa?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "Paris",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        },
+        "hijo_no": {
+            "texto": "mapa",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    }
+}

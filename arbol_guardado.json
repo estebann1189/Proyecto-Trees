@@ -1,0 +1,26 @@
+{
+    "texto": "¿Es un animal?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "maulla?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "gato",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        },
+        "hijo_no": {
+            "texto": "perro",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    },
+    "hijo_no": {
+        "texto": "computadora",
+        "es_pregunta": false,
+        "hijo_si": null,
+        "hijo_no": null
+    }
+}

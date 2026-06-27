@@ -1,0 +1,96 @@
+{
+    "texto": "\u00bfEs un deporte?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "\u00bfSe juega con pelota?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfSe juega en equipo?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfSe mete gol con el pie?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "futbol",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "\u00bfSe usa una canasta?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "baloncesto",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "beisbol",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfSe juega con raqueta?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "tenis",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "golf",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        },
+        "hijo_no": {
+            "texto": "\u00bfSe practica en el agua?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "natacion",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            },
+            "hijo_no": {
+                "texto": "\u00bfSe necesita nieve o hielo?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "esqui",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "atletismo",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            }
+        }
+    },
+    "hijo_no": {
+        "texto": "\u00bfEs un juego de mesa?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "ajedrez",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        },
+        "hijo_no": {
+            "texto": "videojuego",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    }
+}

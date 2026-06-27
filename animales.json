@@ -1,0 +1,116 @@
+{
+    "texto": "\u00bfEs un animal?",
+    "es_pregunta": true,
+    "hijo_si": {
+        "texto": "\u00bfVive en el agua?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfTiene aletas?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfEs muy grande (mas de 2 metros)?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "tiburon",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "pez dorado",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "pulpo",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            }
+        },
+        "hijo_no": {
+            "texto": "\u00bfPuede volar?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "\u00bfTiene plumas de colores brillantes?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "loro",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                },
+                "hijo_no": {
+                    "texto": "aguila",
+                    "es_pregunta": false,
+                    "hijo_si": null,
+                    "hijo_no": null
+                }
+            },
+            "hijo_no": {
+                "texto": "\u00bfEs mascota comun en casas?",
+                "es_pregunta": true,
+                "hijo_si": {
+                    "texto": "\u00bfMaulla?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "gato",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "perro",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                },
+                "hijo_no": {
+                    "texto": "\u00bfVive en la selva?",
+                    "es_pregunta": true,
+                    "hijo_si": {
+                        "texto": "leon",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    },
+                    "hijo_no": {
+                        "texto": "caballo",
+                        "es_pregunta": false,
+                        "hijo_si": null,
+                        "hijo_no": null
+                    }
+                }
+            }
+        }
+    },
+    "hijo_no": {
+        "texto": "\u00bfEs un objeto electronico?",
+        "es_pregunta": true,
+        "hijo_si": {
+            "texto": "\u00bfSirve para comunicarse?",
+            "es_pregunta": true,
+            "hijo_si": {
+                "texto": "telefono",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            },
+            "hijo_no": {
+                "texto": "computadora",
+                "es_pregunta": false,
+                "hijo_si": null,
+                "hijo_no": null
+            }
+        },
+        "hijo_no": {
+            "texto": "silla",
+            "es_pregunta": false,
+            "hijo_si": null,
+            "hijo_no": null
+        }
+    }
+}
